@@ -1,0 +1,25 @@
+
+```json
+{
+  "name": "udiap-protocol",
+  "version": "1.0.0",
+  "description": "Universal Digital Identity & Asset Protocol",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:mumbai": "hardhat run scripts/deploy.js --network mumbai",
+    "deploy:polygon": "hardhat run scripts/deploy.js --network polygon"
+  },
+  "keywords": [
+    "blockchain",
+    "identity",
+    "polygon",
+    "web3"
+  ],
+  "author": "UDIAP Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "chai": "^4.3.10
